@@ -1,6 +1,15 @@
-hdjIf you were a song, you'd be the best single on the album.
-23. I would never play hide and seek with you because someone like you is impossible to find
-. Are you an electrician? Because you’re definitely lighting up my day/night!
-It’s a good thing I have my library card, because I am totally checking you out.
-lets go to study
-hello ashutosh
+//Find average using arrays
+public class Average {
+
+    public static void main(String[] args) {
+        double[] numArray = { 45.3, 67.5, -45.6, 20.34, 33.0, 45.6 };
+        double sum = 0.0;
+
+        for (double num: numArray) {
+           sum += num;
+        }
+
+        double average = sum / numArray.length;
+        System.out.format("The average is: %.2f", average);
+    }
+}
